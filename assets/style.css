@@ -88,6 +88,51 @@ body {
   background-color: black;
 }
 
+/*page menu*/
+.navMenu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.navMenu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btnPasta {
+  display: flex;
+  justify-content: center;
+  background-color: #117e32;
+  text-align: center;
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px 0px;
+  color:aliceblue
+}
+.btnPizza {
+  display: flex;
+  justify-content: center;
+  background-color: #de0909;
+  text-align: center;
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px 0px;
+  color:aliceblue
+}
+.btnMenu {
+  display: flex;
+  justify-content: center;
+  background-color: #0b0b0b;
+  text-align: center;
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px 0px;
+  color:aliceblue
+}
+
 /*Footer*/
 .footer-clean {
   padding:50px 0;
